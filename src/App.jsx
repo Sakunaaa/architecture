@@ -1,29 +1,13 @@
 import './App.css';
-
-const navItems = [
-	'Intro',
-	'About',
-	'Services',
-	'Works',
-	'FAQ',
-	'Testimonials',
-	'News',
-	'Contact',
-];
+import { Header } from './Header';
+import { Nav } from './Nav';
 
 function App() {
 	return (
 		<div className="main-grid">
 			<aside>
-				<header>LOGO</header>
-				<nav>
-					<ol className="nav-items">
-						{navItems.map((item, index) => {
-							// tutaj pisz ternary operator
-							return <li>{`0${index + 1}. ${item}`}</li>;
-						})}
-					</ol>
-				</nav>
+				<Header />
+				<Nav />
 			</aside>
 			<main></main>
 		</div>
