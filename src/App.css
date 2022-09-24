@@ -11,12 +11,13 @@
 body {
 	margin: 0;
 	background-color: var(--primary-color);
+	font-family: Poppins, sans-serif;
 }
 
 aside {
 	border-right: 2px solid black;
 	display: grid;
-	grid-template-rows: 4fr 5fr;
+	grid-template-rows: 7fr 10fr;
 }
 
 aside header {
@@ -25,17 +26,18 @@ aside header {
 }
 
 aside nav {
-	padding: 1.5rem 2rem;
+	padding: 0.8rem 2rem;
 }
 
 .nav-items {
 	display: flex;
 	flex-direction: column;
-	gap: 1.5rem;
-	font-weight: bold;
+	gap: 1rem;
+	font-weight: 500;
 	font-size: 1.85rem;
 	list-style-type: none;
 	padding: 0;
+	letter-spacing: -0.03em;
 }
 
 .logo {
